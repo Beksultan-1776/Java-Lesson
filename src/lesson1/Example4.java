@@ -4,6 +4,7 @@ package lesson1;
 
 public class Example4 {
     public static void main(String[] args) {
+        // Constants name must be written in uppercase
         final double PI = 3.141592;
         System.out.println("PI is : " + PI);
 

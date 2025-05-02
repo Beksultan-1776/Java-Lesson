@@ -1,0 +1,28 @@
+package lesson3;
+
+public class Example1 {
+    public static void main(String[] args) {
+        /*-------------------------------------------------------------------------------------------------------------*
+            Arithmetic operations
+            Addition                +   priority: 1
+            Subtraction             -   priority: 1
+            Multiplication          *   priority: 3
+            Division                /   priority: 3
+            Remainder               %   priority: 2
+            Increment (+ 1)         ++  priority: 4
+            Decrement (- 1)         --  priority: 4
+
+            Increment and Decrement works only with variables !
+        *-------------------------------------------------------------------------------------------------------------*/
+
+        byte number = 2;
+        System.out.println(++number + 2 - 10);
+
+        int x = 10, y = 400;
+        int sum = x + y;
+        System.out.println(sum);
+
+        number = (byte) (x + y);
+        System.out.println(number);
+    }
+}
