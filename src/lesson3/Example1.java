@@ -16,7 +16,7 @@ public class Example1 {
         *-------------------------------------------------------------------------------------------------------------*/
 
         byte number = 2;
-        System.out.println(++number + 2 - 10);
+        System.out.println(number + 2 - 10);
 
         int x = 10, y = 400;
         int sum = x + y;
@@ -24,5 +24,19 @@ public class Example1 {
 
         number = (byte) (x + y);
         System.out.println(number);
+
+        final double PI = 3.141592;
+        int result = (int) (PI * 2);
+        System.out.println(result);
+
+        System.out.println(10 % 3);
+
+        byte incVar = 0;
+        incVar++;
+        System.out.println(incVar);
+
+        byte decVar = 3;
+        decVar--;
+        System.out.println(decVar);
     }
 }
