@@ -34,6 +34,7 @@ public class Example2 {
         System.out.printf("Your name is: %s\nYour age: %d\nYour height: %.2f\n", userName, userAge, userHeight);
         System.out.print("Is correct ? (if yes enter \"true\", if not enter \"false\"): ");
         boolean userChoice = in.nextBoolean();
+        System.out.println(userChoice);
         in.close();
     }
 }

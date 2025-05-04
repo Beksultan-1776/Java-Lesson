@@ -33,5 +33,7 @@ public class Example2 {
 
         // Trying to print an uninitialized variable will result in an error 👇.
         // System.out.println(z);
+        z = 10;
+        System.out.println(z);
     }
 }
